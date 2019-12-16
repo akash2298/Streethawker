@@ -60,8 +60,42 @@ header #topbar .log-in button {
   background-color: #ed1c24;
 }
 
-header #navbar .logo i {
-  font-size: 30px;
+header #navbar .collaps-cat {
+  color: #000000;
+}
+
+header #navbar .collaps-cat button {
+  background-color: #ffffff;
+  border: none;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+header #navbar .collaps-cat #coll-cat {
+  position: absolute;
+  z-index: 16;
+}
+
+header #navbar .collaps-cat #coll-cat ul li {
+  padding: .75rem 2.25rem;
+  position: relative;
+}
+
+header #navbar .collaps-cat #coll-cat ul li a {
+  color: #000000;
+  font-size: 14px;
+}
+
+header #navbar .collaps-cat #coll-cat ul li a:hover {
+  text-decoration: underline;
+  color: #f47928;
+}
+
+header #navbar .collaps-cat #coll-cat ul li i {
+  color: #000000;
+  font-size: 14px;
+  margin-left: 20px;
 }
 
 header #navbar .logo img {
@@ -97,6 +131,10 @@ header #navbar .search i {
 header #navbar .cart {
   text-align: right;
   font-size: 30px;
+}
+
+.carousel-item a img {
+  width: 100%;
 }
 
 .carousel-indicators li.active {

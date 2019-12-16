@@ -65,8 +65,38 @@ header {
     }
 
     #navbar {
-        .logo i {
-            font-size: 30px;
+        .collaps-cat{
+            color: #000000;
+            button{
+                background-color: #ffffff;
+                border: none;
+                padding: 5px;
+                font-size: 25px;
+                border-radius: 5px;
+            }
+            #coll-cat{
+                position: absolute;
+                z-index: 16;
+                ul{
+                    li{
+                        padding: .75rem 2.25rem;
+                        position: relative;
+                        a{
+                            color: #000000;
+                            font-size: 14px;
+                            &:hover{
+                                text-decoration: underline;
+                                color: #f47928;
+                            }
+                        }
+                        i{
+                            color: #000000;
+                            font-size: 14px;
+                            margin-left: 20px;
+                        }
+                    }
+                }
+            }
         }
 
         .logo img {
@@ -105,7 +135,13 @@ header {
         }
     }
 }
-
+.carousel-item{
+    a{
+        img{
+            width: 100%;
+        }
+    }
+}
 .carousel-indicators li.active {
     background-color: #f47928 !important;
 }
